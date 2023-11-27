@@ -1,0 +1,59 @@
+---
+html_id: contact
+title: Contact
+title_extra: " Us"
+class: style2 center
+image: /images/pic01.jpg
+position: 30% 50%
+---
+
+{% comment %}
+
+	Landscape by Pixelarity
+	pixelarity.com | hello@pixelarity.com
+	License: pixelarity.com/license
+
+	Name:
+
+		Reel item (slide)
+
+	Description:
+
+		Generates one slide in _includes/components/reel.html.
+		Slides must contain frontmatter and HTML content.
+		Include numbers in the file name to sort the slides.
+
+	Example:
+
+		---
+		html_id: my-slide
+		title: One
+		title_extra: " slide"
+		class: style1 center
+		image: /images/pic01.jpg
+		position: center center
+		---
+
+		<h2>My Slide</h2>
+		<p>More content here</p>
+
+{% endcomment %}
+
+<h2>Contact Us</h2>
+<div class="content">
+	<form method="post" action="#">
+		<div class="field half first"><input type="text" name="name" id="name" placeholder="Name" /></div>
+		<div class="field half"><input type="email" name="email" id="email" placeholder="Email" /></div>
+		<div class="field"><textarea name="message" id="message" placeholder="Message" rows="5"></textarea></div>
+		<ul class="actions">
+			<li><input type="submit" value="Send" /></li>
+		</ul>
+	</form>
+</div>
+<ul class="icons">
+	<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+	<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+	<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+	<li><a href="#" class="icon fa-github"><span class="label">GitHub</span></a></li>
+	<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+</ul>
