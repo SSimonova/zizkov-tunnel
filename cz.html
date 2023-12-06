@@ -22,12 +22,12 @@ layout: default
 	<header id="header">
 		<nav id="nav">
 			<ul>
-				{% for slide in site.content_en %}
+				{% for slide in site.content_cz %}
 					<li><a href="#{{ slide.html_id }}">
 						{{ slide.title }}<span class="extra">{{ slide.title_extra }}</span>
 					</a></li>
 				{% endfor %}
-				<li><a href="{{ site.baseurl }}/cz">CZ</a></li>
+				<li><a href="{{ site.baseurl }}/">EN</a></li>
 			</ul>
 		</nav>
 	</header>
@@ -38,7 +38,7 @@ layout: default
 		<!-- Reel -->
 			<section class="reel">
 
-				{% for slide in site.content_en %}
+				{% for slide in site.content_cz %}
 
 					<article id="{{ slide.html_id }}" class="slide {{ slide.class }}">
 						<img src="{{ site.baseurl }}{{ slide.image }}" alt="" data-position="{{ slide.position }}" />

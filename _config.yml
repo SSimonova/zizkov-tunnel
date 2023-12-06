@@ -15,9 +15,10 @@ sass:
   sass_dir: assets/sass
 
 # Collections
-# Add new slides as HTML files inside the _reel folder
+# Add new slides as HTML files inside the _content_* folders
 collections:
-  - reel
+  - content_en
+  - content_cz
 
 # Exclude from processing.
 # The following items will not be processed, by default.
